@@ -1,0 +1,42 @@
+body {
+    font: arial,sans-serif;
+   }
+   
+   a {
+     text-decoration: none;
+     color: black;
+     opacity: .75;
+     margin: 10px;
+    padding-top: 30px;
+    vertical-align: top;
+   }
+   
+   #nav {
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+     top: 0;
+   }
+   
+   #top-left {
+     margin: 7px 0 0 10px;
+   }
+
+   #top-right {
+    margin: 7px 0 0 10px;
+   }
+
+   #top-right img {
+       padding-right: 10px;
+   }
+   #top-right button {
+    border-radius: 5px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: white;
+    background-color: #4285f4;
+    vertical-align: top;
+    display: inline-block;
+    line-height: 20px;
+   }
+   
